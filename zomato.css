@@ -1,0 +1,257 @@
+body{
+    box-sizing: border-box;
+    margin-left:300px;
+    margin-right: 300px;
+    padding:0;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    margin-top: 7px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:25px;
+    
+}
+.logo{
+    height:30px;
+    
+}
+.search{
+    height:60px;
+    width:750px;
+    padding-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 25px;
+}
+.location-icon{
+    color: rgb(235, 106, 106);
+    font-size: 25px;
+
+}
+.location-search{
+    height:50px;
+    width:250px;
+    border:none;
+    font-size:20px;
+    
+}
+.search-restaurent{
+    height:50px;
+    width:400px;
+    border:none;
+    font-size:20px;
+}
+.dp{
+    font-size:50px;
+}
+.user{
+    font-size:25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    
+}
+.links a {
+    text-decoration: none;
+    color: black;
+    
+}
+.categories{
+    height:90px;
+    width:auto;
+    background-color: white;
+    padding:10px;
+    display: flex;
+    align-items:center;
+    margin-bottom:59px;
+    
+    
+    top:0;
+   
+}
+.dining-img{
+    height:100px;
+    width:80px;
+   
+}
+.dining-img-icon{
+    height:80px;
+    width:100%;
+    border-radius: 50%;
+    object-fit:cover;
+    object-position: center;
+
+}
+.diningout-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    
+    font-size: 25px;
+    height:100px;
+    width:250px;
+}
+.categories a{
+    text-decoration: none;
+    color:black;
+}
+.diningout-btn:hover{
+    cursor:pointer;
+    border-bottom: 2px solid red;
+    color:red;
+}
+.middle{
+    background-color: rgb(239, 239, 239);
+    margin-left:-300px;
+    margin-right: -300px;
+    padding-left: 300px;
+    margin-top: -60px;
+    padding-top:2px;
+    padding-bottom: 30px;
+}
+.collections{
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.collections p{
+    font-size: 25px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    color:grey;
+}
+.card{
+    height:390px;
+    width:335px;
+    border-radius: 10px;
+    position: relative;
+}
+.card-image{
+    height: 100%;
+    width:100%;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.spot-names{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    bottom: 0;
+    left:30px;
+    font-family: sans-serif;
+    
+}
+.spot-names p{
+    margin-bottom: 10px;
+}
+.spot-names-1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.places{
+    display:flex;
+    gap:15px;
+}
+.options{
+    height:120px;
+    width:auto;
+    display:flex;
+    gap:10px;
+    align-items: center;
+    
+}
+.b1{
+    padding:10px;
+    border:1px solid lightgrey;
+    color: rgb(181, 172, 172);
+    border-radius: 8px;
+    background-color: white;
+    font-size: 25px;
+}
+.b1:hover{
+    background-color: rgb(254, 237, 237);
+    cursor:pointer;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 38px;
+    margin-bottom: 20px;
+
+}
+.menu{
+    display:flex;
+    gap:14px;
+    margin-bottom: 15px;
+}
+.menu-card{
+    height:450px;
+    width:400px;
+
+    padding:12px;
+    border-radius: 12px;
+}
+.menu-image{
+    width:100%;
+    height:68%;
+    border-radius: 12px;
+
+}
+.menu-details{
+    font-family: sans-serif;
+    margin-top:5px;
+}
+.line-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.rating{
+    border:1px solid rgb(16, 119, 16);
+    padding:5px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(16, 119, 16);
+}
+.line-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(135, 128, 128);
+    margin-bottom: 10px;
+}
+.price{
+    font-size:18px;
+}
+.line-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(135, 128, 128);
+    margin-bottom: 10px;
+
+}
+.line-4{
+    font-size: 20px;
+    color:red;
+    margin-bottom: 10px;
+}
+.menu-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
